@@ -24,6 +24,44 @@ a {
     margin-bottom: 120px;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonials__item {
+    width: 445px;
+    min-width: 327px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.testimonials__icon-item {
+    margin-bottom: 32px;
+}
+
+.testimonials__author {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.testimonials__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
 .form {
     display: flex;
     flex-direction: row;
